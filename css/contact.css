@@ -37,6 +37,7 @@
 .contact-label {
     font-weight: 500;
     text-transform: uppercase;
+    color: var(--text-color-inverse);
 }
 
 .contact-form input,
