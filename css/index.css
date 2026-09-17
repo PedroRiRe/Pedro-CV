@@ -1,7 +1,7 @@
 :root {
     --theme-color: #f8fafc;                       /* Blanco roto / slate muy claro */
     --primary-color: #1e293b;                     /* Azul marino oscuro (profesional y sobrio) */
-    --secondary-color: #2563eb;                   /* Azul real / tecnológico (para acentos y botones) */
+    --secondary-color: #60a5fa;                   /* Azul real / tecnológico (para acentos y botones) */
     --text-color: #0f172a;                        /* Gris casi negro para máxima legibilidad */
     --text-color-inverse: #ffffff;                /* Blanco puro sobre fondos oscuros */
     --navbar-shadow-color: rgba(15, 23, 42, 0.08); /* Sombra sutil y limpia */
