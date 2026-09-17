@@ -3,22 +3,13 @@
     margin: 0 auto;
 }
 
-
 .skills-title {
     color: var(--primary-color);
     font-size: 30px;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-}
-
-.skills-skill {
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: 0 4px 10px var(--navbar-shadow-color);
-    border-radius: 42px;
-    padding: 0.5em 0.7em;
-    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .skills-list {
@@ -27,15 +18,40 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 12px;
+}
+
+.skills-skill {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+    background-color: #ffffff;
+    border: 1px solid rgba(30, 41, 59, 0.12);
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+    border-radius: 30px;
+    padding: 0.6em 1.2em;
+    transition: all 0.3s ease;
+}
+
+/* Efecto al pasar el ratón */
+.skills-skill:hover {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.15);
 }
 
 @media (min-width: 950px) {
     .skills-title {
-        font-size: 50px;
+        font-size: 45px;
     }
     
     .skills-skill {
-        font-size: 30px;
-        margin: 20px;
+        font-size: 18px; /* Ajustado para mantener una escala limpia y legible */
+        padding: 0.7em 1.4em;
+    }
+
+    .skills-list {
+        gap: 16px;
     }
 }
