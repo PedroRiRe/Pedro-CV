@@ -81,9 +81,24 @@
 
 .social-list img {
     height: 25px;
+    transition: filter 0.3s ease;
 }
 
-.social-list img:hover {
+.social-list a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--text-color-inverse);
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.social-list a:hover {
+    color: var(--secondary-color);
+}
+
+.social-list a:hover img {
     filter: drop-shadow(0 0 5px var(--secondary-color));
 }
 
@@ -109,7 +124,7 @@
         height: 35px;
     }
     
-    .social-list img:hover {
+    .social-list a:hover img {
         filter: drop-shadow(0 0 6px var(--secondary-color));
     }
 
