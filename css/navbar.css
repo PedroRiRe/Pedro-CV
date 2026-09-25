@@ -69,7 +69,7 @@
 }
 
 .menu a:hover {
-    color: var(--primary-color);
+    color: var(--accent-red);
 }
 
 .open-menu,
@@ -136,6 +136,6 @@
     
     .menu a:hover,
     .menu a.selected {
-        color: var(--secondary-color);
+        color: var(--accent-red);
     }
 }

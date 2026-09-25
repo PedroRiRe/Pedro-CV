@@ -35,10 +35,10 @@
 
 /* Efecto al pasar el ratón */
 .skills-skill:hover {
-    border-color: var(--secondary-color);
-    color: var(--secondary-color);
+    border-color: var(--accent-red);
+    color: var(--accent-red);
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.15);
+    box-shadow: 0 6px 16px rgba(225, 29, 72, 0.4);
 }
 
 @media (min-width: 950px) {

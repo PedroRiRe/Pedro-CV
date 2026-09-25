@@ -4,8 +4,9 @@
     --secondary-color: #60a5fa;                   /* Azul real / tecnológico (para acentos y botones) */
     --text-color: #0f172a;                        /* Gris casi negro para máxima legibilidad */
     --text-color-inverse: #ffffff;                /* Blanco puro sobre fondos oscuros */
-    --navbar-shadow-color: rgba(15, 23, 42, 0.08); /* Sombra sutil y limpia */
-    --menu-mobile-background-color: #0f172a;       /* Fondo oscuro sobrio para el menú móvil */
+    --navbar-shadow-color: rgba(0, 0, 0, 0.15); /* Sombra sutil con tono negro espacial */
+    --menu-mobile-background-color: #050508; /* Negro espacial con subtono oscuro */
+    --accent-red: #e60012; /* Rojo corporativo aeroespacial vibrante */
 }
 
 html {
