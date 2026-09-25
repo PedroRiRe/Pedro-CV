@@ -17,11 +17,34 @@ section[id] {
     scroll-margin-top: 95px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap');
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: var(--theme-color);
-    color: var(--text-color);
-    padding-top: 80px;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: var(--theme-color);
+  color: var(--text-color);
+  padding-top: 80px;
+}
+
+/* Forzar la nueva fuente en todo el contenido, títulos y botones */
+body, h1, h2, h3, h4, h5, h6, 
+.profile-title, .profile-details, .profile-btn, 
+.skills-skill, .topnav a, .navbar a {
+  font-family: 'Rajdhani', sans-serif !important;
+}
+
+/* Títulos con estilo tecnológico y industrial */
+h1, h2, h3, .profile-title, .skills-title {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+/* Menú de navegación superior al estilo de la referencia */
+.topnav a, .navbar a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
 }
 
 a {
